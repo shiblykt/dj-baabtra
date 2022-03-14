@@ -1,3 +1,55 @@
-h2{
-    color: blue;
+body{
+    margin-left: none;
+    margin-right: none;
+}
+#banner{
+    width: 100%;
+    height: 500px;
+}
+.content-head{
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 100px;
+    background-color: rgb(13, 32, 66);
+    color: white;
+    text-align: center;
+    font-size:x-large;
+}
+h1{
+    padding: 10px;
+}
+.grid-container{
+    width: 100%;
+    height: 400px;
+    background-color:none;
+    margin-top: 100px;
+    border-style: solid;
+    border-color: rgb(224, 221, 221);
+}
+.grid-item{
+    width: 30%;
+    height: 400px;
+    background-color: none;
+    float: left;
+}
+#office{
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#para-1{
+    text-align: justify;
+    padding: 0px 10px 0px 10px;
+}
+.iframe{
+    width: 40%;
+    height: 400px;
+    float: right;
+}
+.frame{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

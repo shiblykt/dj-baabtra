@@ -1,4 +1,5 @@
 {% load static %}
+{% include 'header.html' %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +10,32 @@
     <link rel="stylesheet" href="{% static 'style/main.css' %}">
 </head>
 <body>
-    <h2>ready to go</h2>
+    <section>
+        <div class="banner">
+            <img src="{% static 'images/bann.png' %}" alt="image not found" id="banner">
+        </div>
+        <div class="content-head">
+            <h1>GETTING A SOFTWARE JOB IS EASY WITH OUR INTERNSHIP PROGRAM</h1>
+        </div>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3 align="center">Our Office</h3>
+                <img src="{% static 'images/office.jpg' %}" alt="image not found" id="office">
+            </div>
+            <div class="grid-item">
+                <h3 align="center">Best Python Training in calicut</h3>
+                <p id="para-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad accusantium eaque autem ducimus dolores magnam! Laudantium impedit sit molestiae minima, dignissimos voluptates expedita iste id modi quod dicta pariatur error.
+                Odio nisi eligendi beatae optio! Quod at illo quisquam. Pariatur a dolorem culpa, natus nisi dolore tenetur, quidem reiciendis consectetur debitis facere sed repellendus ipsam ab placeat delectus laborum. Tenetur?
+                Maxime non accusantium ab dolorem beatae earum cum qui porro aliquam molestias iusto, fuga iure unde quaerat atque rerum natus asperiores, vitae culpa assumenda cumque eveniet quisquam! Dolor, aspernatur architecto.</p>
+            </div>
+            <div class="iframe">
+                <h3 align="center">Life @ Baabtra</h3>
+                <iframe width="420" height="315" src="https://www.youtube.com/embed/LIGnK77l1fA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="frame"></iframe>
+                
+            </div>
+        </div>
+    </section>
     
 </body>
 </html>
+{% include 'footer.html' %}

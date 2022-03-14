@@ -1,0 +1,48 @@
+{% load static %}
+{% include 'header.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'style/courses.css' %}">
+</head>
+<body>
+    <section>
+        <div id="paradiv">
+            <h2 align="center">Explore our internship program</h2>
+            <p id="parg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo odit voluptatem at fuga maiores necessitatibus voluptas recusandae saepe voluptatibus! Blanditiis similique doloribus est dignissimos esse architecto placeat error, vel earum.
+            Ducimus laudantium quas sint qui assumenda quod sequi quam eveniet deserunt iure, hic dolor. Quas, eligendi, deleniti itaque voluptas saepe maxime nostrum tenetur ut totam fugit magnam, expedita ducimus consequuntur.
+            Eius odit dignissimos illum doloremque exercitationem voluptas perferendis eveniet, blanditiis voluptatem consequuntur accusantium dolorem non enim debitis quam repellat, ratione maxime atque neque facere ex, excepturi consectetur. Minima, quidem amet?</p>
+        </div>
+        <br><br><br>
+
+        <div class="grid-container-courses">
+            <div class="python-div">
+                <img src="{% static 'images/pyth.jpg' %}" alt="image not found" id="python">
+                <h3 align="center">Python Full Stack development</h3>
+                <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quaerat nemo neque, amet modi debitis quibusdam ea ex explicabo excepturi suscipit numquam dolores, animi quos, laboriosam earum quod reiciendis dolorem.
+                Quo ducimus minima quaerat id itaque excepturi tempora, nulla, debitis illum incidunt cumque dolorem esse amet est quos accusantium numquam? Voluptatem quos porro dolorum provident enim ab quasi voluptatum laborum?
+                Quidem reprehenderit quos veniam molestias, suscipit in doloribus temporibus doloremque rerum minus vel aliquid. Repellendus eligendi facere veniam obcaecati alias, maxime, rem eum nihil ipsam nemo amet dolorem soluta sed?</p>
+            </div>
+            <div class="php-div">
+                <img src="{% static 'images/php.jpg' %}" alt="image not found" id="php">
+                <h3 align="center">Php Full Stack development</h3>
+                <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quaerat nemo neque, amet modi debitis quibusdam ea ex explicabo excepturi suscipit numquam dolores, animi quos, laboriosam earum quod reiciendis dolorem.
+                    Quo ducimus minima quaerat id itaque excepturi tempora, nulla, debitis illum incidunt cumque dolorem esse amet est quos accusantium numquam? Voluptatem quos porro dolorum provident enim ab quasi voluptatum laborum?
+                    Quidem reprehenderit quos veniam molestias, suscipit in doloribus temporibus doloremque rerum minus vel aliquid. Repellendus eligendi facere veniam obcaecati alias, maxime, rem eum nihil ipsam nemo amet dolorem soluta sed?</p>
+            </div>
+            <div class="angular-div">
+                <img src="{% static 'images/angular.png' %}" alt="image not found" id="angular">
+                <h3 align="center">Angular front-end development</h3>
+                <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quaerat nemo neque, amet modi debitis quibusdam ea ex explicabo excepturi suscipit numquam dolores, animi quos, laboriosam earum quod reiciendis dolorem.
+                    Quo ducimus minima quaerat id itaque excepturi tempora, nulla, debitis illum incidunt cumque dolorem esse amet est quos accusantium numquam? Voluptatem quos porro dolorum provident enim ab quasi voluptatum laborum?
+                    Quidem reprehenderit quos veniam molestias, suscipit in doloribus temporibus doloremque rerum minus vel aliquid. Repellendus eligendi facere veniam obcaecati alias, maxime, rem eum nihil ipsam nemo amet dolorem soluta sed?</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+{% include 'footer.html' %}
