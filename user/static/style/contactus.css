@@ -1,0 +1,46 @@
+body{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.container-contact-div{
+ width: 100%;
+ height: none;
+ background-color:none;   
+}
+#iframe{
+    
+
+}
+.form-div{
+    margin: auto;
+    height: none;
+    background-color:none;
+    float: none;
+}
+input[type=text]{
+    width:250px;
+    height: 25px;
+}
+input[type=date]{
+    width:250px;
+}
+td{
+    width: 250px;
+}
+.button{
+    width:100px;
+    border-width: 9px;
+    border-color: #003651;
+    font-family: 'poppins',Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 100px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color:#003651 ;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+textarea{
+    width: 250px;
+}

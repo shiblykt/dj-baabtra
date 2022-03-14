@@ -6,3 +6,6 @@ def master(request):
 
 def courses(request):
     return render(request,'courses.html')
+    
+def contactus(request):
+    return render(request,'contactus.html')
